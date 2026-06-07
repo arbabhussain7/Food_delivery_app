@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"d:\\\\food_delivery_app\\\\lib\\\\features\\\\home\" -Recurse -Force | Select-Object FullName | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"d:\\\\food_delivery_app\\\\lib\\\\features\\\\home\\\\domain\" -Recurse -Force 2>$null | Select-Object FullName | ForEach-Object { $_.FullName })"
+    ]
+  }
+}
