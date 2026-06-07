@@ -252,23 +252,6 @@ lib/
 * Clean Architecture
 * Repository Pattern
 
----
-
-# 📦 Key Packages
-
-```yaml
-flutter_bloc:
-equatable:
-get_it:
-firebase_core:
-firebase_auth:
-cloud_firestore:
-firebase_messaging:
-flutter_stripe:
-geolocator:
-geocoding:
-go_router:
-```
 
 ---
 
@@ -332,22 +315,6 @@ Display Delivery Location
 
 ---
 
-# 📸 Screenshots
-
-Add your screenshots here:
-
-```text
-assets/screenshots/
-├── splash.png
-├── login.png
-├── home.png
-├── cart.png
-├── checkout.png
-├── tracking.png
-```
-
----
-
 # ⚙️ Installation
 
 ```bash
@@ -364,17 +331,6 @@ flutter pub get
 flutter run
 ```
 
----
-
-# 🔥 Firebase Setup
-
-1. Create a Firebase Project.
-2. Enable Authentication.
-3. Enable Cloud Firestore.
-4. Enable Firebase Cloud Messaging.
-5. Download `google-services.json`.
-6. Place it inside:
-
 ```text
 android/app/
 ```
@@ -385,20 +341,6 @@ android/app/
 flutterfire configure
 ```
 
----
-
-# 🎯 Future Enhancements
-
-* Coupon & Discount System
-* Favorite Food Items
-* Multi-Vendor Support
-* Live Driver Tracking
-* Rating & Reviews
-* Dark Mode
-* Loyalty Reward System
-* In-App Chat Support
-
----
 
 # 👨‍💻 Developer
 
